@@ -1,0 +1,12 @@
+question_1.py - contains the source code for problem 1. 
+             - the function signature for value iteration is:
+			value_iteration(prob_of_head)
+	     - it creates the plots presented in the report
+
+question_2.py - contains three algortihms: Greedy, UCB1 and Thompson Sampling
+	     - The function signatures are:
+	     - n = number of arms
+		Greedy: Greedy(n,vector_prob,iteration)
+                UCB1: UCB(n,vector_prob,iteration)
+		Thompson: TSampling (n,vector_prob,iteration)	
+             - I commented out the results for steps 10000, 100000 as they take a lot of time for both n = 11 and 5.
